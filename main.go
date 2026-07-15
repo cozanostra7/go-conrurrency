@@ -1,10 +1,11 @@
 package main
-import "go_async/miner"
+
+import (
+	"go_async/mailman"
+	"go_async/miner"
+)
 
 func main() {
-	coalTransferPoint:=miner.Foo()
-
-	
-
-	for v:=range coalTransferPoint {}
+	mailTransferPoint:=mailman.MailmanPool()
+	for v:= range mailTransferPoint{}
 }
